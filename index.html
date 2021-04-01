@@ -5,18 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" ></script>
+    <script src="/Users/chrys/Desktop/code_repo/Portfolio/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <title>Chrys's Portfolio</title>
   </head>
   <body>
     <header>
-     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+     <nav class="navbar navbar-expand-lg navbar-light bg-white">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Chrystal Projects</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <span><i class="fas fa-bars 5x"></i></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
@@ -27,9 +29,9 @@
   </div>
 </nav>
     </header>
-    <section>
+    <section class="top_section">
       <div>
-        <h1>I'm Malieze Chrys, glad to meet you!</h1>
+        <h1 class="header mb-2">I'm Malieze Chrys, glad to meet you!</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut ullam,
           sequi perferendis suscipit iste assumenda dolore iure neque autem,
@@ -38,20 +40,18 @@
           alias est repudiandae!
         </p>
       </div>
-      <p>Lets connect</p>
-      <div>
-        <ul>
-          <li>Git hub</li>
-          <li>Twitter</li>
-          <li>LinkedIn</li>
-          <li>Instagram</li>
-          <li>Telegram</li>
-        </ul>
+      <p class="link_head">Lets connect</p>
+      <div class="icon-social mb-5">         
+        <a href=""><i class="fab 5x fa-github"></i></a>
+        <a href=""><i class="fab fa-linkedin"></i></a>
+        <a href=""><i class="fab fa-twitter"></i></a>
+        <a href=""><i class="fab fa-instagram"></i></a>
+        <a href=""><i class="fab fa-telegram"></i></a>
       </div>
     </section>
-    <article>
+    <article class="article">
       <img src="" alt="Screenshot-1" />
-      <h2>Tonic</h2>
+      <h2 class="header">Tonic</h2>
       <ul>
         <li>Canopy</li>
         <li>Backend Dev</li>
@@ -66,11 +66,11 @@
         <input type="button" value="CSS" disabled />
         <input type="button" value="Javascript" disabled />
       </div>
-      <a href="http://">See Project</a>
+      <a class="btn btn-outline-primary btn-lg mt-2" href="http://">See Project</a>
     </article>
-    <article>
+    <article class="article">
       <img src="" alt="Screenshot-1" />
-      <h2>Tonic</h2>
+      <h2 class="header">Tonic</h2>
       <ul>
         <li>Canopy</li>
         <li>Backend Dev</li>
@@ -85,11 +85,11 @@
         <input type="button" value="CSS" disabled />
         <input type="button" value="Javascript" disabled />
       </div>
-      <a href="http://">See Project</a>
+      <a class="btn btn-outline-primary btn-lg mt-2" href="http://">See Project</a>
     </article>
-    <article>
+    <article class="article">
       <img src="" alt="Screenshot-1" />
-      <h2>Tonic</h2>
+      <h2 class="header">Tonic</h2>
       <ul>
         <li>Canopy</li>
         <li>Backend Dev</li>
@@ -104,11 +104,11 @@
         <input type="button" value="CSS" disabled />
         <input type="button" value="Javascript" disabled />
       </div>
-      <a class="btn btn-primary btn-lg" href="http://">See Project</a>
+      <a class="btn btn-outline-primary btn-lg mt-2" href="http://">See Project</a>
     </article>
-    <article>
+    <article class="article">
       <img src="" alt="Screenshot-1" />
-      <h2>Tonic</h2>
+      <h2 class="header">Tonic</h2>
       <ul>
         <li>Canopy</li>
         <li>Backend Dev</li>
@@ -123,9 +123,10 @@
         <input type="button" value="CSS" disabled />
         <input type="button" value="Javascript" disabled />
       </div>
-      <a href="http://">See Project</a>
+      <a class="btn btn-outline-primary btn-lg mt-2" href="http://">See Project</a>
     </article>
     <footer>
+      <section class="footer_top">
       <h2>About Myself</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem
@@ -144,24 +145,33 @@
           <li>Telegram</li>
         </ul>
       </div>
-      <a href="http://">Get My Resume</a>
+      <a class="btn btn-outline-danger btn-lg mt-2" href="http://">Get My Resume</a>
       <div>
         <div>Languages</div>
         <div>Frameworks</div>
         <div>Skills</div>
       </div>
-      <section>
+      </section>
+      <section class="footer_bottom">
         <h2>Contact Me</h2>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad optio sed culpa. 
           Repellat maiores dolores provident eligendi officiis possimus debitis fugit, 
           quisquam reprehenderit iusto similique ea doloribus earum dolore suscipit!</p>
+          <form class="d-flex flex-column" action="">
+            <input class="form-control d-flex mb-3 w-100" type="text" name="name" placeholder="Malieze Afam Ifeanyi Chrys" >
+              </div>
+              <div >
+            <input class="form-control d-flex mb-3 w-100" type="text" name="email" placeholder="afam_ifeanyi@live.com">
+            </div>
+            <div >
+            <text-area class="form-control d-flex mb -3 w-100 h-50" name="message" placeholder="Message" >
+            </div>
+            <div >
+            <input class="d-flex mt-3 btn btn-outline-primary"type="submit" value="Push a message">
+            </div>
+            </div>
+          </form>
       </section>
-      <form action="">
-        <input type="text" name="name" placeholder="Malieze Afam Ifeanyi Chrys" >
-        <input type="text" name="email" placeholder="afam_ifeanyi@live.com">
-        <input type="text-area" name="message" >
-        <input type="submit" value="Push a message">
-      </form>
     </footer>
   </body>
 </html>
