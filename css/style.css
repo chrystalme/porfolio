@@ -8379,10 +8379,17 @@ body {
     line-height: 24px;
     font-size: 16px; }
   .top_section .icon-social {
-    color: rebeccapurple; }
+    line-height: 10px;
+    color: black; }
+    .top_section .icon-social a {
+      text-decoration: none;
+      color: grey;
+      margin-right: 10px; }
+      .top_section .icon-social a:hover {
+        color: black; }
 
 .article {
-  background-color: burlywood;
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
