@@ -8386,7 +8386,7 @@ body {
       color: grey;
       margin-right: 10px; }
       .top_section .icon-social a:hover {
-        color: black; }
+        color: tomato; }
 
 .article {
   background-color: white;
@@ -8400,11 +8400,13 @@ body {
     font-weight: 600;
     font-size: 2rem;
     color: cadetblue; }
+  .article img {
+    width: 100%; }
   .article ul {
     display: flex;
     flex-direction: row;
     align-content: space-around;
-    text-decoration: none; }
+    list-style: inside; }
     .article ul li {
       margin-right: 20px;
       text-decoration: none; }
@@ -8422,5 +8424,17 @@ footer {
     padding: 20px;
     background-color: rgba(2, 2, 124, 0.445);
     border-top-left-radius: 50px; }
+  footer ul {
+    display: inline-flex;
+    list-style: none;
+    flex-wrap: wrap; }
+  footer li {
+    margin-right: 10px; }
+
+a {
+  text-decoration: none;
+  color: black; }
+  a:hover {
+    color: tomato; }
 
 /*# sourceMappingURL=style.css.map */

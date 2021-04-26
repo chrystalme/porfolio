@@ -35,7 +35,7 @@ body {
       color: grey;
       margin-right: 10px;
       &:hover {
-        color: black;
+        color: tomato;
       }
     }
   }
@@ -54,11 +54,14 @@ body {
     font-size: 2rem;
     color: cadetblue;
   }
+  img {
+    width: 100%;
+  }
   ul {
     display: flex;
     flex-direction: row;
     align-content: space-around;
-    text-decoration: none;
+    list-style: inside;
     li {
       margin-right: 20px;
       text-decoration: none;
@@ -82,5 +85,20 @@ footer {
     padding: 20px;
     background-color: rgba(2, 2, 124, 0.445);
     border-top-left-radius: 50px;
+  }
+  ul {
+    display: inline-flex;
+    list-style: none;
+    flex-wrap: wrap;
+  }
+  li {
+    margin-right: 10px;
+  }
+}
+a {
+  text-decoration: none;
+  color: black;
+  &:hover {
+    color: tomato;
   }
 }
