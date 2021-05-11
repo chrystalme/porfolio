@@ -1,5 +1,6 @@
 body {
-  background: #cecac5; }
+  background: #cecac5;
+  font-family: 'Montserrat Alternates', sans-serif; }
 
 .top_section {
   display: flex;
