@@ -1,16 +1,47 @@
+*,
+::before,
+::after {
+  box-sizing: border-box; }
+
 body {
-  background: #cecac5;
-  font-family: 'Montserrat Alternates', sans-serif; }
+  background: #cecac5; }
+
+header {
+  position: relative; }
+
+footer {
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  border-top-right-radius: 50px; }
+  footer ul {
+    display: inline-flex;
+    list-style: none;
+    flex-wrap: wrap; }
+  footer li {
+    margin-right: 10px; }
+  footer .footer_top {
+    padding: 20px; }
+  footer .footer_bottom {
+    padding: 20px;
+    background-color: rgba(2, 2, 124, 0.445);
+    border-top-left-radius: 50px; }
+
+a {
+  text-decoration: none;
+  color: black; }
+  a:hover {
+    color: tomato; }
 
 .top_section {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   background-color: white;
-  border-bottom-left-radius: 50px;
+  border-bottom-left-radius: 10rem;
   top: 0;
   left: 0;
-  padding: 30px; }
+  padding: 8rem; }
   .top_section .header {
     font-weight: 700;
     color: cadetblue;
@@ -38,8 +69,9 @@ body {
 .article {
   background-color: white;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
   padding: 20px;
   margin: 20px;
   border-radius: 10px; }
@@ -48,7 +80,7 @@ body {
     font-size: 2rem;
     color: cadetblue; }
   .article img {
-    width: 100%; }
+    width: 50%; }
   .article ul {
     display: flex;
     flex-direction: row;
@@ -60,28 +92,15 @@ body {
       .article ul li:first-child {
         text-decoration: none; }
 
-footer {
-  bottom: 0;
-  left: 0;
-  background-color: white;
-  border-top-right-radius: 50px; }
-  footer .footer_top {
-    padding: 20px; }
-  footer .footer_bottom {
-    padding: 20px;
-    background-color: rgba(2, 2, 124, 0.445);
-    border-top-left-radius: 50px; }
-  footer ul {
-    display: inline-flex;
-    list-style: none;
-    flex-wrap: wrap; }
-  footer li {
-    margin-right: 10px; }
+.eclipse-4 {
+  position: relative;
+  width: 7px;
+  height: 7px;
+  left: 839px;
+  top: 758px; }
 
-a {
-  text-decoration: none;
-  color: black; }
-  a:hover {
-    color: tomato; }
+@media (min-width: 320px) {
+  .top-section {
+    padding: 3rem; } }
 
 /*# sourceMappingURL=style.css.map */
