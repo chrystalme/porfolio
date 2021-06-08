@@ -6,6 +6,9 @@
 
 body {
   background: rgb(206, 202, 197);
+  max-width: 320px;
+  text-align: center;
+  text-justify: newspaper;
 }
 
 header {
@@ -56,13 +59,13 @@ a {
   border-bottom-left-radius: 10rem;
   top: 0;
   left: 0;
-  padding: 8rem;
+  padding: 1.5rem;
 
   .header {
-    font-weight: 700;
+    font-weight: 500;
     color: cadetblue;
-    font-size: 2.5rem;
-    line-height: 3rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
     position: static;
     top: 114px;
     left: 24px;

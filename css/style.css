@@ -4,7 +4,10 @@
   box-sizing: border-box; }
 
 body {
-  background: #cecac5; }
+  background: #cecac5;
+  max-width: 320px;
+  text-align: center;
+  text-justify: newspaper; }
 
 header {
   position: relative; }
@@ -41,12 +44,12 @@ a {
   border-bottom-left-radius: 10rem;
   top: 0;
   left: 0;
-  padding: 8rem; }
+  padding: 1.5rem; }
   .top_section .header {
-    font-weight: 700;
+    font-weight: 500;
     color: cadetblue;
-    font-size: 2.5rem;
-    line-height: 3rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
     position: static;
     top: 114px;
     left: 24px; }
@@ -101,6 +104,8 @@ a {
 
 @media (min-width: 320px) {
   .top-section {
-    padding: 3rem; } }
+    padding: 3rem; }
+    .top-section .header {
+      font-weight: 500; } }
 
 /*# sourceMappingURL=style.css.map */
