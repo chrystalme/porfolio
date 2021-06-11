@@ -1,0 +1,31 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "A showcase of the projects I have worked on",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrystalme/porfolio.git"
+  },
+  "keywords": [
+    "Portfolio",
+    "bootstrap",
+    "sass",
+    "javascript",
+    "programming",
+    "web-development"
+  ],
+  "author": "Chrys",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrystalme/porfolio/issues"
+  },
+  "homepage": "https://github.com/chrystalme/porfolio#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.1"
+  }
+}

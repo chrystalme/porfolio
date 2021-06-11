@@ -1,4 +1,4 @@
-$minor-color : #172b4d;
+$minor-color: #172b4d;
 $light-blue: #6070ff;
 $hover-link: tomato;
 
@@ -10,7 +10,7 @@ $hover-link: tomato;
 
 body {
   background: rgb(206, 202, 197);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-align: left;
   text-justify: auto;
   font-size: 10px;
@@ -54,6 +54,10 @@ a {
   &:hover {
     color: $hover-link;
   }
+}
+
+button {
+  outline: none;
 }
 
 .top_section {
@@ -182,3 +186,7 @@ a {
     }
   }
 }
+
+@import "custom";
+@import "medium_screen";
+@use '../node_modules/bootstrap/scss/bootstrap.scss';
