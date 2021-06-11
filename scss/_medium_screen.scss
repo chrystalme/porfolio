@@ -1,9 +1,39 @@
-@media screen and (max-width: 375px) {
-  .top-section {
-    padding: 1.8rem;
+@media screen and (min-width: 375px) {
+  .top_section {
+    padding: 1.9rem;
 
     .header {
       font-weight: 500;
     }
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .top_section {
+    padding: 3rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .top_section {
+    padding: 5.1rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .top_section {
+    padding: 6.7rem;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .top_section {
+    padding: 7.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .top_section {
+    padding: 6.7rem;
   }
 }
