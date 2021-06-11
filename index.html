@@ -15,9 +15,33 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
         <div class="container">
-          <a class="my_nav navbar-brand" href="#">Malieze Chrys</a>
+          <a class="my_nav navbar-brand" href="index.html">Malieze Chrys</a>
+          <div class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+          aria-expanded="false" aria-label="Toggle navigation">
+            <span><i class="fas fa-bars 5x"></i></span>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+            <li class="nav-item">
+              <a target="_blank" class="nav-link" href="https://www.linkedin.com/in/afam-chrys">LinkedIn</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">contact</a>
+            </li> 
+          </ul>       
+        </div>
+  </div>
+</nav>
+      <!-- <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+          <a class="my_nav navbar-brand" href="index.html">Malieze Chrys</a>
           <div class="navbar-toggler" type="button" data-bs-toggle="collapse" 
           data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
           aria-expanded="false" aria-label="Toggle navigation">
@@ -27,40 +51,47 @@
       
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
               <a target="_blank" class="nav-link" href="https://www.linkedin.com/in/afam-chrys">LinkedIn</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">contact</a>
             </li> 
           </ul>       
     </div>
   </div>
-</nav>
+</nav> -->
     </header>
-    <section class="top_section">
-      <img class='eclipse-4' src="images/Microverse Student Portfolio/Main/Ellipse 4.png" alt="">
-      <img class='rectangle-6' src="images/Microverse Student Portfolio/Main/Rectangle 6.png" alt="" >
-      <img class='eclipse-5' src="images/Microverse Student Portfolio/Main/Ellipse 5.png" alt="">
-      <img class='rectangle-7' src="images/Microverse Student Portfolio/Main/Rectangle 7.png" alt="" >
+    <section >
+      <div class="top_section">
+        <img class='eclipse-4' src="images/Microverse Student Portfolio/Main/Ellipse 4.png" alt="">
+        <img class='rectangle-6' src="images/Microverse Student Portfolio/Main/Rectangle 6.png" alt="" >
+        <img class='eclipse-5' src="images/Microverse Student Portfolio/Main/Ellipse 5.png" alt="">
+        <img class='rectangle-7' src="images/Microverse Student Portfolio/Main/Rectangle 7.png" alt="" >
 
-      <div>
-        <h1 class="header">I'm Malieze Chrys, glad to meet you!</h1>
-        <p>
-          I have been an avid learner all my life and programming fascinates me. You can break things without actually touching them.
-          I have had other careers but I still come back to code because in coding I find myself. Not bored or fatigued no matter the
-          time spent. Solving problems brings refreshment.
-        </p>
-      </div>
-      <p class="link_head">Lets connect</p>
-      <div class="icon-social">         
-        <a target="_blank" href="https://github.com/chrystalme"><i class="fab fa-2x fa-github "></i></a>
-        <a target="_blank" href="https://www.linkedin.com/in/afam-chrys"><i class="fab fa-2x fa-linkedin "></i></a>
-        <a target="_blank" href="https://twitter.com/afam_ifeanyi"><i class="fab fa-2x fa-twitter"></i></a>
-        <a target="_blank" href="https://instagram.com/afam_chrys"><i class="fab fa-2x fa-instagram"></i></a>
-        <a target="_blank" href="https://t.me/afam_chrys"><i class="fab fa-2x fa-telegram"></i></a>
-      </div>
+        <div>
+          <h1 class="header">I'm Malieze Chrys, glad to meet you!</h1>
+          <p>
+            I have been an avid learner all my life and programming fascinates me. You can break things without actually touching them.
+            I have had other careers but I still come back to code because in coding I find myself. Not bored or fatigued no matter the
+            time spent. Solving problems brings refreshment.
+          </p>
+        </div>
+        <p class="link_head">Lets connect</p>
+        <div class="icon-social">         
+          <a target="_blank" href="https://github.com/chrystalme"><i class="fab fa-2x fa-github "></i></a>
+          <a target="_blank" href="https://www.linkedin.com/in/afam-chrys"><i class="fab fa-2x fa-linkedin "></i></a>
+          <a target="_blank" href="https://twitter.com/afam_ifeanyi"><i class="fab fa-2x fa-twitter"></i></a>
+          <a target="_blank" href="https://instagram.com/afam_chrys"><i class="fab fa-2x fa-instagram"></i></a>
+          <a target="_blank" href="https://t.me/afam_chrys"><i class="fab fa-2x fa-telegram"></i></a>
+        </div>
+      </div>      
     </section>
-    <article class="article">
+    <div id="projects">      
+     <section>
+      <article class="article">
       <img src="images/Screenshot-1.png" alt="Screenshot-1" />
       <div>
         <h2 class="header">Social media web application</h2>
@@ -80,6 +111,7 @@
       <a target="_blank" class="btn btn-outline-primary btn-lg mt-2" href="https://shielded-springs-33727.herokuapp.com/">See Project</a>
       </div>
     </article>
+    </section>
     <article class="article">
       <img src="images/Screenshot-6.png" alt="Screenshot-6" />
       <div>
@@ -138,8 +170,9 @@
       </div>
       <a class="btn btn-outline-primary btn-lg mt-2" href="http://">See Project</a>
     </article> -->
+    </div>
     <footer>
-      <section class="footer_top">
+      <div class="footer_top">
       <h2>About Myself</h2>
       <p>
        I am a husband and a father. I am a Nigerian living in Lebanon. I like coding
@@ -166,13 +199,12 @@
         Communication | Peer-to-peer programming | Writing
         </div>
       </div>
-      </section>
-      <section class="footer_bottom">
+    </div>
+      <div id="contact" class="footer_bottom">
         <h2>Contact Me</h2>
         <p>If you would like to reach out to me, send me a message below.</p>
           <form class="d-flex flex-column" action="mailto:afam_ifeanyi@live.com" method="POST">
             <input class="form-control d-flex mb-3 w-100" type="text" name="name" placeholder="Malieze Afam Ifeanyi Chrys" >
-              </div>
               <div >
             <input class="form-control d-flex mb-3 w-100" type="text" name="email" placeholder="afam_ifeanyi@live.com">
             </div>
@@ -184,7 +216,7 @@
             </div>
             </div>
           </form>
-      </section>
+        </div>
     </footer>
   </body>
 </html>

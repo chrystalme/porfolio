@@ -16,8 +16,26 @@ body {
   font-size: 10px;
 }
 
+section {
+  height: 100vh;
+}
+article {
+  height: 90vh;
+}
+
 header {
-  position: relative;
+  position: sticky;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+}
+
+.fixed-top {
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
 }
 
 footer {
@@ -49,10 +67,10 @@ footer {
 
 a {
   text-decoration: none;
-  color: black;
+  color: $minor-color;
 
   &:hover {
-    color: $hover-link;
+    color: $light-blue;
   }
 }
 
@@ -72,7 +90,7 @@ button {
   padding: 1.5rem;
 
   p {
-    font-weight: 200;
+    font-weight: 300;
     font-size: 1rem;
     line-height: 18px;
   }
@@ -82,7 +100,6 @@ button {
     color: $minor-color;
     font-size: 2.2rem;
     line-height: 2.3rem;
-    margin-top: 3rem;
     margin-bottom: 1rem;
   }
 
@@ -96,15 +113,15 @@ button {
   .icon-social {
     line-height: 10px;
     color: black;
-    margin-bottom: 1rem;
+    margin-bottom: 3.5rem;
 
     a {
       text-decoration: none;
-      color: grey;
+      color: $minor-color;
       margin-right: 10px;
 
       &:hover {
-        color: $hover-link;
+        color: $light-blue;
       }
     }
   }
@@ -124,7 +141,7 @@ button {
     width: 11px;
     height: 10px;
     left: 132.98px;
-    top: 100px;
+    top: 35px;
 
     /* Primary/B100 */
     background: #cbcdff;
@@ -136,8 +153,8 @@ button {
     position: absolute;
     width: 26.46px;
     height: 4.73px;
-    left: 127.18px;
-    top: 105px;
+    left: 125px;
+    top: 50px;
 
     /* Primary/B400 */
     background: #6070ff;
@@ -145,9 +162,21 @@ button {
   }
 }
 
+.nav-link {
+  font-size: 1.2rem;
+}
+
 .navbar-brand {
   color: $light-blue !important;
   font-weight: 500;
+}
+
+.navbar-light .navbar-toggler {
+  color: $light-blue;
+}
+
+.navbar-toggler {
+  border: none;
 }
 
 .article {
@@ -189,4 +218,3 @@ button {
 
 @import "custom";
 @import "medium_screen";
-@use '../node_modules/bootstrap/scss/bootstrap.scss';
