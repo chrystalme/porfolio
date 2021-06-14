@@ -74,6 +74,10 @@ a {
   }
 }
 
+nav {
+  background: #fff;
+}
+
 button {
   outline: none;
 }
@@ -163,7 +167,34 @@ button {
 }
 
 .nav-link {
+  color: $light-blue;
+  font-weight: 400;
+  display: inline;
+  margin-top: 2rem;
   font-size: 1.2rem;
+}
+
+.nav-link:not(:last-child) {
+  margin-right: 3rem;
+}
+
+.my_nav {
+  font-weight: 500;
+  font-size: 2rem;
+  color: $light-blue;
+}
+
+.container-lg {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-container {
+  display: none;
+  color: $light-blue;
+  font-weight: 500;
+  font-size: 1.2rem;
+  align-items: center;
 }
 
 .navbar-brand {
