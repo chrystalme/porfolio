@@ -48,8 +48,9 @@ section h2 {
 }
 .nav-item {
   position: relative;
+  list-style: none;
 }
-.nav-item:not(:last-child) {
+.nav-item:only-child(:last-child) {
   margin-bottom: 20px;
 }
 .nav-link {
@@ -73,10 +74,10 @@ section h2 {
   height: 100%;
   padding-right: 6.5rem;
   padding-left: 2rem;
-  line-height: 7rem;
+  line-height: 3.2rem;
   transform: translateX(-100%);
   transition: all 0.3s;
-  z-index: -1;
+  z-index: -999;
 }
 .nav-item:hover i {
   transform: scale(1.1);
