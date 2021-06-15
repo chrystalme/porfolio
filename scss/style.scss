@@ -54,6 +54,12 @@ footer {
     margin-right: 10px;
   }
 
+  h5 {
+    text-align: center;
+    border-bottom: 1px solid $light-blue;
+    width: 60%;
+  }
+
   .footer_top {
     padding: 20px;
   }
@@ -67,10 +73,10 @@ footer {
 
 a {
   text-decoration: none;
-  color: $minor-color;
+  color: $light-blue;
 
   &:hover {
-    color: $light-blue;
+    color: $minor-color;
   }
 }
 
@@ -121,11 +127,11 @@ button {
 
     a {
       text-decoration: none;
-      color: $minor-color;
+      color: $light-blue;
       margin-right: 10px;
 
       &:hover {
-        color: $light-blue;
+        color: $minor-color;
       }
     }
   }
@@ -166,27 +172,25 @@ button {
   }
 }
 
-.nav-link {
-  color: $light-blue;
-  font-weight: 400;
-  display: inline;
-  margin-top: 2rem;
-  font-size: 1.2rem;
-}
-
-.nav-link:not(:last-child) {
-  margin-right: 3rem;
-}
-
-.my_nav {
-  font-weight: 500;
-  font-size: 2rem;
-  color: $light-blue;
+.skill-set {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 5px;
 }
 
 .container-lg {
   display: flex;
   justify-content: space-between;
+}
+
+.nav-link:hover {
+  color: $minor-color;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: 1.2rem;
+  color: $light-blue;
 }
 
 .nav-container {
@@ -200,6 +204,7 @@ button {
 .navbar-brand {
   color: $light-blue !important;
   font-weight: 500;
+  font-size: 1.5rem;
 }
 
 .navbar-light .navbar-toggler {
