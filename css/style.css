@@ -10,12 +10,6 @@ body {
   text-justify: auto;
   font-size: 10px; }
 
-section {
-  height: 100vh; }
-
-article {
-  height: 90vh; }
-
 header {
   position: sticky;
   z-index: 9999;
@@ -72,6 +66,7 @@ button {
   border-bottom-left-radius: 3rem;
   top: 0;
   left: 0;
+  height: 100%;
   padding: 6rem 2rem 5rem 2rem; }
   .top_section p {
     font-weight: 300;
