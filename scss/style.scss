@@ -48,9 +48,13 @@ footer {
   }
 
   h5 {
-    text-align: center;
-    border-bottom: 1px solid $light-blue;
+    text-align: left;
     width: 60%;
+  }
+  h5::before {
+    content: "";
+    border-bottom: 4px solid $light-blue;
+    width: 10%;
   }
 
   .footer_top {
@@ -186,6 +190,24 @@ button {
 .navbar-light .navbar-nav .nav-link {
   font-size: 1.2rem;
   color: $light-blue;
+}
+
+.proj-link {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  i {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    color: $minor-color;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  i:hover {
+    color: $light-blue;
+  }
 }
 
 .nav-container {

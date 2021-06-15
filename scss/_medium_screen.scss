@@ -91,6 +91,24 @@
     font-size: 2rem;
     color: $light-blue;
   }
+  footer {
+    h5 {
+      font-size: medium;
+    }
+    .footer_top {
+      padding: 8rem;
+    }
+    .footer_bottom {
+      padding: 8rem;
+    }
+    h2 {
+      font-size: 3rem;
+    }
+    p {
+      font-weight: 400;
+      font-size: medium;
+    }
+  }
 }
 
 @media screen and (min-width: 1140px) {

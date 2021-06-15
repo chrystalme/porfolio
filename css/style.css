@@ -35,9 +35,12 @@ footer {
   footer li {
     margin-right: 10px; }
   footer h5 {
-    text-align: center;
-    border-bottom: 1px solid #6070ff;
+    text-align: left;
     width: 60%; }
+  footer h5::before {
+    content: "";
+    border-bottom: 4px solid #6070ff;
+    width: 10%; }
   footer .footer_top {
     padding: 20px; }
   footer .footer_bottom {
@@ -138,6 +141,21 @@ button {
 .navbar-light .navbar-nav .nav-link {
   font-size: 1.2rem;
   color: #6070ff; }
+
+.proj-link {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .proj-link i {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    color: #172b4d;
+    font-size: 2rem;
+    font-weight: 500; }
+  .proj-link i:hover {
+    color: #6070ff; }
 
 .nav-container {
   display: none;
@@ -250,7 +268,19 @@ button {
   .my_nav {
     font-weight: 500;
     font-size: 2rem;
-    color: #6070ff; } }
+    color: #6070ff; }
+
+  footer h5 {
+    font-size: medium; }
+  footer .footer_top {
+    padding: 8rem; }
+  footer .footer_bottom {
+    padding: 8rem; }
+  footer h2 {
+    font-size: 3rem; }
+  footer p {
+    font-weight: 400;
+    font-size: medium; } }
 @media screen and (min-width: 1140px) {
   .top_section {
     padding: 15rem; } }
