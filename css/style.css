@@ -3,12 +3,15 @@
 ::after {
   box-sizing: border-box; }
 
+html,
 body {
   background: #cecac5;
   font-family: "Poppins", sans-serif;
   text-align: left;
   text-justify: auto;
-  font-size: 10px; }
+  font-size: 10px;
+  width: 100%;
+  height: 100%; }
 
 header {
   position: sticky;
@@ -66,10 +69,13 @@ button {
   flex-direction: column;
   align-items: flex-start;
   background-color: white;
+  background-image: url("/images/Header bg@2x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   border-bottom-left-radius: 3rem;
   top: 0;
   left: 0;
-  height: 100%;
+  height: 90vh;
   padding: 6rem 2rem 5rem 2rem; }
   .top_section p {
     font-weight: 300;
@@ -80,7 +86,8 @@ button {
     color: #172b4d;
     font-size: 2.5rem;
     line-height: 3rem;
-    margin-bottom: 2rem; }
+    margin-bottom: 2rem;
+    margin-top: 3rem; }
   .top_section .link_head {
     color: #6070ff;
     font-weight: 500;
@@ -125,6 +132,9 @@ button {
     background: #6070ff;
     transform: matrix(0.76, 0.65, 0.65, -0.76, 0, 0); }
 
+.main-section {
+  height: 90vh; }
+
 .skill-set {
   display: flex;
   flex-direction: row;
@@ -142,11 +152,16 @@ button {
   font-size: 1.2rem;
   color: #6070ff; }
 
+.project-details {
+  padding: 1.5rem; }
+  .project-details p {
+    margin: 2rem 0; }
+
 .proj-link {
   position: relative;
   display: flex;
-  justify-content: center;
-  align-items: center; }
+  align-items: center;
+  margin: 3rem; }
   .proj-link i {
     position: absolute;
     bottom: 5px;
@@ -175,21 +190,46 @@ button {
 .navbar-toggler {
   border: none; }
 
+.social-media {
+  background-image: url(/images/social-media.png);
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.yachting-lifestyle {
+  background-image: url(/images/yachting-website.png);
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.library-app {
+  background-image: url(/images/library-app.png);
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.weather-app {
+  background-image: url(/images/weather-app.png);
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px; }
+
 .article {
   background-color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-content: center;
-  padding: 20px;
   margin: 20px;
-  border-radius: 10px; }
+  border-radius: 10px;
+  height: 95vh; }
   .article .header {
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1.5rem;
-    color: #172b4d; }
+    color: #172b4d;
+    margin-bottom: 2rem; }
   .article img {
-    width: 100%; }
+    width: 100%;
+    border-radius: 10px 10px 0 0; }
   .article ul {
     display: flex;
     flex-direction: row;
@@ -235,7 +275,19 @@ button {
       font-size: 1rem; }
 
   .top_section {
-    padding: 4.025rem; } }
+    padding: 4.025rem; }
+
+  .social-media {
+    background-image: url(/images/social-media.png);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+  .yachting-lifestyle {
+    background-image: url(/images/yachting-website.png);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat; } }
 @media screen and (min-width: 1024px) {
   .top_section {
     padding: 10rem; }

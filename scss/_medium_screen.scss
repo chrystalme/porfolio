@@ -47,6 +47,20 @@
   .top_section {
     padding: 4.025rem;
   }
+
+  .social-media {
+    background-image: url(/images/social-media.png);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .yachting-lifestyle {
+    background-image: url(/images/yachting-website.png);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
 
 @media screen and (min-width: 1024px) {
