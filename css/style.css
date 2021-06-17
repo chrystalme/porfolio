@@ -38,6 +38,7 @@ footer {
   footer li {
     margin-right: 10px; }
   footer h5 {
+    font-weight: 700;
     text-align: left;
     width: 60%; }
   footer h5::before {
@@ -110,33 +111,6 @@ button {
       margin-right: 10px; }
       .top_section .icon-social a:hover {
         color: #172b4d; }
-  .top_section .eclipse-4 {
-    background: #6070ff;
-    position: absolute;
-    width: 7px;
-    height: 7px;
-    left: 0;
-    top: 0;
-    border-radius: 50%; }
-  .top_section .eclipse-5 {
-    position: absolute;
-    width: 11px;
-    height: 10px;
-    left: 132.98px;
-    top: 35px;
-    /* Primary/B100 */
-    background: #cbcdff;
-    transform: rotate(52.97deg);
-    border-radius: 50%; }
-  .top_section .rectangle-7 {
-    position: absolute;
-    width: 26.46px;
-    height: 4.73px;
-    left: 125px;
-    top: 50px;
-    /* Primary/B400 */
-    background: #6070ff;
-    transform: matrix(0.76, 0.65, 0.65, -0.76, 0, 0); }
 
 .main-section {
   height: 90vh; }
