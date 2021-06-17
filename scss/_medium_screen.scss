@@ -16,6 +16,26 @@
 }
 
 @media screen and (min-width: 768px) {
+  footer {
+    .footer_top {
+      padding: 7rem;
+    }
+    h2 {
+      font-size: x-large;
+    }
+    h5 {
+      font-size: medium;
+    }
+    p {
+      font-size: medium;
+    }
+    span {
+      font-size: 1.2rem;
+    }
+    .footer_bottom {
+      padding: 7rem;
+    }
+  }
   .nav-link {
     font-size: 1.4rem;
   }
@@ -86,14 +106,15 @@
       line-height: 4rem;
     }
     p {
-      font-weight: 400;
-      font-size: medium;
+      font-weight: 300;
+      font-size: x-large;
+      line-height: 3rem;
     }
     .link_head {
-      font-size: 1.5rem;
+      font-size: x-large;
     }
     .icon-social {
-      font-size: 1.2rem;
+      font-size: medium;
       margin-bottom: 0;
     }
   }
@@ -153,7 +174,18 @@
 
 @media screen and (min-width: 1140px) {
   .top_section {
-    padding: 15rem;
+    padding: 20rem;
+    p {
+      font-size: x-large;
+      line-height: normal;
+      margin-bottom: 8rem;
+    }
+    .link_head {
+      font-size: x-large;
+    }
+    .icon-social {
+      font-size: medium;
+    }
   }
 }
 
