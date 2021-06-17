@@ -281,6 +281,12 @@ button {
   width: 100%;
   border-radius: 10px;
 }
+.tech {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2px;
+  flex-wrap: wrap;
+}
 
 .article {
   background-color: white;

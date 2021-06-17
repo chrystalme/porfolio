@@ -1,12 +1,12 @@
 @media screen and (min-width: 375px) {
-  .top_section {
-    padding: 3rem;
+  // .top_section {
+  //   padding: 3rem;
 
-    .header {
-      font-weight: 700;
-      margin-top: 8rem;
-    }
-  }
+  //   .header {
+  //     font-weight: 700;
+  //     margin-top: 8rem;
+  //   }
+  // }
 }
 
 @media screen and (min-width: 425px) {
@@ -22,6 +22,9 @@
   .article {
     display: flex;
     flex-direction: row;
+    .header {
+      font-size: 2rem;
+    }
     h2 {
       font-weight: 500;
     }
@@ -38,18 +41,25 @@
       justify-content: space-around;
     }
     .skill-set {
-      font-size: 1.1rem;
+      font-size: 1.345rem;
       display: flex;
       flex-direction: row;
-      justify-content: space-evenly;
+      justify-content: space-between;
       margin: 0 5px 0 5px;
     }
     p {
-      font-size: 1rem;
+      font-size: 1.2rem;
     }
   }
   .top_section {
     padding: 7rem;
+    .header {
+      font-size: 3rem;
+    }
+    p {
+      font-size: 2rem;
+      line-height: 20px;
+    }
   }
 
   .social-media {
@@ -72,12 +82,12 @@
     padding: 10rem;
     // margin-bottom: 2rem;
     .header {
-      font-size: 2.5rem;
+      font-size: 4rem;
+      line-height: 4rem;
     }
     p {
-      font-weight: 300;
-      font-size: 1.2rem;
-      line-height: 1.2rem;
+      font-weight: 400;
+      font-size: medium;
     }
     .link_head {
       font-size: 1.5rem;
@@ -124,6 +134,18 @@
     }
     p {
       font-weight: 400;
+      font-size: medium;
+    }
+  }
+
+  .article {
+    .header {
+      font-size: 3rem;
+    }
+    .skill-set {
+      font-size: 1.75rem;
+    }
+    p {
       font-size: medium;
     }
   }

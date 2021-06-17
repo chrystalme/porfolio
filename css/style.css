@@ -221,6 +221,12 @@ button {
   width: 100%;
   border-radius: 10px; }
 
+.tech {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2px;
+  flex-wrap: wrap; }
+
 .article {
   background-color: white;
   margin: 20px;
@@ -244,12 +250,6 @@ button {
       .article ul li:first-child {
         text-decoration: none; }
 
-@media screen and (min-width: 375px) {
-  .top_section {
-    padding: 3rem; }
-    .top_section .header {
-      font-weight: 700;
-      margin-top: 8rem; } }
 @media screen and (min-width: 425px) {
   .top_section {
     padding: 3rem; } }
@@ -260,6 +260,8 @@ button {
   .article {
     display: flex;
     flex-direction: row; }
+    .article .header {
+      font-size: 2rem; }
     .article h2 {
       font-weight: 500; }
     .article img {
@@ -273,16 +275,21 @@ button {
       flex-direction: column;
       justify-content: space-around; }
     .article .skill-set {
-      font-size: 1.1rem;
+      font-size: 1.345rem;
       display: flex;
       flex-direction: row;
-      justify-content: space-evenly;
+      justify-content: space-between;
       margin: 0 5px 0 5px; }
     .article p {
-      font-size: 1rem; }
+      font-size: 1.2rem; }
 
   .top_section {
     padding: 7rem; }
+    .top_section .header {
+      font-size: 3rem; }
+    .top_section p {
+      font-size: 2rem;
+      line-height: 20px; }
 
   .social-media {
     background-image: url(/images/social-media.png);
@@ -299,11 +306,11 @@ button {
   .top_section {
     padding: 10rem; }
     .top_section .header {
-      font-size: 2.5rem; }
+      font-size: 4rem;
+      line-height: 4rem; }
     .top_section p {
-      font-weight: 300;
-      font-size: 1.2rem;
-      line-height: 1.2rem; }
+      font-weight: 400;
+      font-size: medium; }
     .top_section .link_head {
       font-size: 1.5rem; }
     .top_section .icon-social {
@@ -339,6 +346,13 @@ button {
     font-size: 3rem; }
   footer p {
     font-weight: 400;
+    font-size: medium; }
+
+  .article .header {
+    font-size: 3rem; }
+  .article .skill-set {
+    font-size: 1.75rem; }
+  .article p {
     font-size: medium; } }
 @media screen and (min-width: 1140px) {
   .top_section {
