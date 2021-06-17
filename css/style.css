@@ -45,7 +45,11 @@ footer {
     border-bottom: 4px solid #6070ff;
     width: 10%; }
   footer .footer_top {
-    padding: 20px; }
+    padding: 20px;
+    background-image: url("/images/Header bg@2x.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: 20 20; }
   footer .footer_bottom {
     padding: 20px;
     background-color: rgba(2, 2, 124, 0.445);
@@ -138,7 +142,7 @@ button {
 .skill-set {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin: 5px; }
 
 .container-lg {
@@ -220,8 +224,7 @@ button {
 .article {
   background-color: white;
   margin: 20px;
-  border-radius: 10px;
-  height: 95vh; }
+  border-radius: 10px; }
   .article .header {
     font-weight: 600;
     font-size: 1.5rem;
@@ -243,9 +246,10 @@ button {
 
 @media screen and (min-width: 375px) {
   .top_section {
-    padding: 1.9rem; }
+    padding: 3rem; }
     .top_section .header {
-      font-weight: 500; } }
+      font-weight: 700;
+      margin-top: 8rem; } }
 @media screen and (min-width: 425px) {
   .top_section {
     padding: 3rem; } }
@@ -254,13 +258,16 @@ button {
     font-size: 1.4rem; }
 
   .article {
+    display: flex;
     flex-direction: row; }
     .article h2 {
       font-weight: 500; }
     .article img {
       width: 60%;
       margin-right: 1rem;
-      margin-left: 1rem; }
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      border-top-right-radius: 0; }
     .article .project-details {
       display: flex;
       flex-direction: column;
@@ -275,7 +282,7 @@ button {
       font-size: 1rem; }
 
   .top_section {
-    padding: 4.025rem; }
+    padding: 7rem; }
 
   .social-media {
     background-image: url(/images/social-media.png);

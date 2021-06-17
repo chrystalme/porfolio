@@ -62,6 +62,10 @@ footer {
 
   .footer_top {
     padding: 20px;
+    background-image: url("/images/Header\ bg@2x.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: 20 20;
   }
 
   .footer_bottom {
@@ -185,7 +189,7 @@ button {
 .skill-set {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin: 5px;
 }
 
@@ -282,7 +286,6 @@ button {
   background-color: white;
   margin: 20px;
   border-radius: 10px;
-  height: 95vh;
 
   .header {
     font-weight: 600;
