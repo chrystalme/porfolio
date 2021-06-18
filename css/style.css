@@ -53,6 +53,16 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
     background-origin: 20 20; }
+  footer .ft-cover {
+    position: absolute;
+    background-image: url("/images/Header bg@2x.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7; }
   footer .footer_bottom {
     padding: 20px;
     background-color: rgba(2, 2, 124, 0.445);
@@ -72,35 +82,41 @@ button {
 
 .top_section {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   background-color: white;
-  background-image: url("/images/Header bg@2x.png");
-  background-size: cover;
-  background-repeat: no-repeat;
   border-bottom-left-radius: 3rem;
-  top: 0;
-  left: 0;
   height: 90vh;
-  padding: 6rem 2rem 5rem 2rem; }
+  padding: 6rem 3rem; }
+  .top_section .bg-cover {
+    position: absolute;
+    background-image: url("/images/Header bg@2x.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7; }
   .top_section p {
     font-weight: 300;
     font-size: 1.3rem;
-    line-height: 18px; }
+    line-height: 18px;
+    transform: translateY(30%); }
   .top_section .header {
+    position: relative;
+    top: 4rem;
     font-weight: 700;
     color: #172b4d;
     font-size: 2.5rem;
-    line-height: 3rem;
-    margin-bottom: 2rem;
-    margin-top: 3rem; }
+    line-height: 3rem; }
   .top_section .link_head {
     color: #6070ff;
     font-weight: 500;
     text-transform: uppercase;
     font-size: 16px;
     margin-bottom: 1.5rem; }
+  .top_section .section-bottom {
+    position: absolute;
+    bottom: 1rem; }
   .top_section .icon-social {
     line-height: 10px;
     color: black;
@@ -226,9 +242,14 @@ button {
       .article ul li:first-child {
         text-decoration: none; }
 
+@media screen and (min-width: 375px) {
+  .top_section p {
+    transform: translateY(45%); } }
 @media screen and (min-width: 425px) {
   .top_section {
-    padding: 3rem; } }
+    padding: 5rem; }
+    .top_section p {
+      transform: translateY(50%); } }
 @media screen and (min-width: 768px) {
   footer .footer_top {
     padding: 7rem; }
@@ -306,6 +327,8 @@ button {
     .top_section .icon-social {
       font-size: medium;
       margin-bottom: 0; }
+    .top_section .section-bottom {
+      bottom: 6rem; }
 
   .nav-container {
     justify-content: space-between; }
@@ -347,14 +370,18 @@ button {
 @media screen and (min-width: 1140px) {
   .top_section {
     padding: 20rem; }
+    .top_section .header {
+      font-size: 6rem;
+      line-height: 6rem; }
     .top_section p {
-      font-size: x-large;
-      line-height: normal;
-      margin-bottom: 8rem; }
+      font-size: xx-large;
+      line-height: 4rem; }
     .top_section .link_head {
       font-size: x-large; }
     .top_section .icon-social {
-      font-size: medium; } }
+      font-size: medium; }
+    .top_section .section-bottom {
+      bottom: 10rem; } }
 @media screen and (min-width: 2560px) {
   .top_section {
     padding: 25rem; } }

@@ -1,17 +1,17 @@
 @media screen and (min-width: 375px) {
-  // .top_section {
-  //   padding: 3rem;
-
-  //   .header {
-  //     font-weight: 700;
-  //     margin-top: 8rem;
-  //   }
-  // }
+  .top_section {
+    p {
+      transform: translateY(45%);
+    }
+  }
 }
 
 @media screen and (min-width: 425px) {
   .top_section {
-    padding: 3rem;
+    padding: 5rem;
+    p {
+      transform: translateY(50%);
+    }
   }
 }
 
@@ -117,6 +117,9 @@
       font-size: medium;
       margin-bottom: 0;
     }
+    .section-bottom {
+      bottom: 6rem;
+    }
   }
   .nav-container {
     justify-content: space-between;
@@ -175,16 +178,22 @@
 @media screen and (min-width: 1140px) {
   .top_section {
     padding: 20rem;
+    .header {
+      font-size: 6rem;
+      line-height: 6rem;
+    }
     p {
-      font-size: x-large;
-      line-height: normal;
-      margin-bottom: 8rem;
+      font-size: xx-large;
+      line-height: 4rem;
     }
     .link_head {
       font-size: x-large;
     }
     .icon-social {
       font-size: medium;
+    }
+    .section-bottom {
+      bottom: 10rem;
     }
   }
 }
