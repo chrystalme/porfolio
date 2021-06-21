@@ -71,10 +71,11 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 2rem;
     align-items: center; }
   footer .f-social {
     display: flex;
-    gap: 4rem;
+    gap: 3rem;
     font-size: 2rem; }
 
 a {
