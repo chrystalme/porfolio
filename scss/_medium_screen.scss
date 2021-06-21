@@ -1,5 +1,6 @@
 @media screen and (min-width: 375px) {
   .top_section {
+    padding: 3rem;
     p {
       transform: translateY(45%);
     }
@@ -8,7 +9,7 @@
 
 @media screen and (min-width: 425px) {
   .top_section {
-    padding: 5rem;
+    padding: 4rem;
     p {
       transform: translateY(50%);
     }
@@ -81,6 +82,9 @@
       font-size: 2rem;
       line-height: 20px;
     }
+    .section-bottom {
+      bottom: 5rem;
+    }
   }
 
   .social-media {
@@ -112,14 +116,13 @@
       line-height: 2.5rem;
     }
     .link_head {
-      font-size: x-large;
+      font-size: medium;
     }
     .icon-social {
-      font-size: medium;
       margin-bottom: 0;
     }
     .section-bottom {
-      bottom: 4rem;
+      bottom: 3rem;
     }
   }
   .nav-container {

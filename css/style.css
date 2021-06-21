@@ -126,11 +126,9 @@ button {
     margin-bottom: 1.5rem; }
   .top_section .section-bottom {
     position: absolute;
-    bottom: 1rem; }
+    bottom: 3rem; }
   .top_section .icon-social {
-    line-height: 10px;
-    color: black;
-    margin-bottom: 3.5rem; }
+    line-height: 10px; }
     .top_section .icon-social a {
       text-decoration: none;
       color: #3843a8;
@@ -257,11 +255,13 @@ nav-logo {
         text-decoration: none; }
 
 @media screen and (min-width: 375px) {
-  .top_section p {
-    transform: translateY(45%); } }
+  .top_section {
+    padding: 3rem; }
+    .top_section p {
+      transform: translateY(45%); } }
 @media screen and (min-width: 425px) {
   .top_section {
-    padding: 5rem; }
+    padding: 4rem; }
     .top_section p {
       transform: translateY(50%); } }
 @media screen and (min-width: 768px) {
@@ -315,6 +315,8 @@ nav-logo {
     .top_section p {
       font-size: 2rem;
       line-height: 20px; }
+    .top_section .section-bottom {
+      bottom: 5rem; }
 
   .social-media {
     background-image: url(/images/social-media.png);
@@ -338,12 +340,11 @@ nav-logo {
       font-size: x-large;
       line-height: 2.5rem; }
     .top_section .link_head {
-      font-size: x-large; }
+      font-size: medium; }
     .top_section .icon-social {
-      font-size: medium;
       margin-bottom: 0; }
     .top_section .section-bottom {
-      bottom: 4rem; }
+      bottom: 3rem; }
 
   .nav-container {
     justify-content: space-between; }
