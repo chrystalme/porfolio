@@ -1,5 +1,5 @@
 $minor-color: #172b4d;
-$light-blue: #6070ff;
+$light-blue: #3843a8;
 $hover-link: tomato;
 
 *,
@@ -88,6 +88,17 @@ footer {
     padding: 20px;
     background-color: rgba(2, 2, 124, 0.445);
     border-top-left-radius: 50px;
+  }
+  .connect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .f-social {
+    display: flex;
+    gap: 4rem;
+    font-size: 2rem;
   }
 }
 
@@ -191,7 +202,8 @@ button {
 .skill-set {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 2rem;
   margin: 5px;
 }
 
@@ -208,6 +220,11 @@ button {
   font-size: 1.2rem;
   color: $light-blue;
 }
+
+nav-logo {
+  color: $light-blue;
+}
+
 .project-details {
   padding: 1.5rem;
   p {
@@ -243,8 +260,8 @@ button {
 
 .navbar-brand {
   color: $light-blue !important;
-  font-weight: 500;
-  font-size: 1.5rem;
+  font-weight: 700;
+  font-size: 3rem;
 }
 
 .navbar-light .navbar-toggler {
