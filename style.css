@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-size: 10px;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section h2 {
+  font-size: 10rem;
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+
+#home {
+  background: tomato;
+}
+#bios {
+  background: turquoise;
+}
+#projects {
+  background-color: limegreen;
+}
+#contact {
+  background-color: rgb(136, 122, 218);
+}
+
+.sidebar {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #414141;
+}
+.nav-item {
+  position: relative;
+  list-style: none;
+}
+.nav-item:only-child(:last-child) {
+  margin-bottom: 20px;
+}
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+}
+.nav-link i {
+  width: 7rem;
+  height: 2rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #414141;
+  transition: all 0.3s;
+}
+.nav-link .title {
+  position: absolute;
+  background-color: #414141;
+  height: 100%;
+  padding-right: 6.5rem;
+  padding-left: 2rem;
+  line-height: 3.2rem;
+  transform: translateX(-100%);
+  transition: all 0.3s;
+  z-index: -999;
+}
+.nav-item:hover i {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgb(0, 0, 0, 0.8);
+}
+.nav-item:hover .title {
+  transform: translateX(0);
+}

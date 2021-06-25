@@ -1,0 +1,287 @@
+@media screen and (min-width: 375px) {
+  .top_section {
+    padding: 3rem;
+    p {
+      transform: translateY(45%);
+    }
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .top_section {
+    padding: 4rem;
+    p {
+      transform: translateY(50%);
+    }
+  }
+  .form-control {
+    font-size: 1.275rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  footer {
+    .footer_top {
+      padding: 7rem;
+    }
+    h2 {
+      font-size: x-large;
+    }
+    h5 {
+      font-size: medium;
+    }
+    p {
+      font-size: medium;
+    }
+    span {
+      font-size: 1.2rem;
+    }
+    .footer_bottom {
+      padding: 7rem;
+    }
+  }
+  .nav-link {
+    font-size: 1.4rem;
+  }
+  .article {
+    display: flex;
+    flex-direction: row;
+    .header {
+      font-size: 2rem;
+    }
+    h2 {
+      font-weight: 500;
+    }
+    img {
+      width: 60%;
+      margin-right: 1rem;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      border-top-right-radius: 0;
+    }
+    .project-details {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+    .skill-set {
+      font-size: 1.345rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      gap: 2rem;
+      margin: 0 5px 0 5px;
+    }
+    p {
+      font-size: 1.2rem;
+    }
+  }
+  .top_section {
+    padding: 7rem;
+    .header {
+      font-size: 3rem;
+    }
+    p {
+      font-size: 2rem;
+      line-height: 20px;
+    }
+    .section-bottom {
+      bottom: 5rem;
+    }
+  }
+
+  .social-media {
+    background-image: url(/images/social-media.png);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .yachting-lifestyle {
+    background-image: url(/images/yachting-website.png);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .top_section {
+    padding: 10rem 8rem;
+    // margin-bottom: 2rem;
+    .header {
+      font-size: 4rem;
+      line-height: 4rem;
+    }
+    p {
+      font-weight: 300;
+      font-size: x-large;
+      line-height: 2.5rem;
+    }
+    .link_head {
+      font-size: medium;
+    }
+    .icon-social {
+      margin-bottom: 0;
+    }
+    .section-bottom {
+      bottom: 3rem;
+    }
+  }
+  .nav-container {
+    justify-content: space-between;
+  }
+
+  .nav-link {
+    color: $light-blue;
+    font-weight: 400;
+    display: inline;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    padding: 0;
+  }
+
+  .nav-link:not(:last-child) {
+    margin-right: 2rem;
+  }
+
+  .my_nav {
+    font-weight: 500;
+    font-size: 2rem;
+    color: $light-blue;
+  }
+  footer {
+    h5 {
+      font-size: medium;
+    }
+    .footer_top {
+      padding: 12rem;
+    }
+    .footer_bottom {
+      padding: 12rem;
+    }
+    h2 {
+      font-size: 3rem;
+    }
+    p {
+      font-weight: 400;
+      font-size: medium;
+    }
+  }
+
+  .article {
+    .header {
+      font-size: 3rem;
+    }
+    .skill-set {
+      font-size: 1.75rem;
+    }
+    p {
+      font-size: medium;
+    }
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .top_section {
+    padding: 10rem 15rem;
+    .header {
+      font-size: 6rem;
+      line-height: 6rem;
+    }
+    p {
+      font-size: x-large;
+      line-height: 3rem;
+    }
+    .link_head {
+      font-size: x-large;
+    }
+    .icon-social {
+      font-size: medium;
+    }
+    .section-bottom {
+      bottom: 5rem;
+    }
+  }
+  .proj-link i {
+    font-size: 4rem;
+  }
+  .form-control {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  header {
+    .nav-logo {
+      font-size: 4rem;
+    }
+    .nav-link {
+      font-size: 4rem;
+    }
+  }
+  .top_section {
+    padding: 25rem 25rem;
+    .header {
+      font-size: 10rem;
+      line-height: 10rem;
+    }
+    p {
+      font-size: 5rem;
+      line-height: 5rem;
+    }
+    .section-bottom {
+      bottom: 8rem;
+    }
+    .icon-social,
+    .link_head {
+      font-size: 3rem;
+      line-height: 3rem;
+    }
+  }
+  .article {
+    .header {
+      font-size: 5rem;
+    }
+    .skill-set {
+      font-size: 3.5rem;
+    }
+    p {
+      font-size: 2.875rem;
+    }
+  }
+  .btn-group-lg > .btn,
+  .btn-lg {
+    font-size: 3rem;
+  }
+  .proj-link i {
+    font-size: 6rem;
+  }
+
+  footer {
+    .footer_top {
+      padding: 24rem;
+    }
+    h2 {
+      font-size: 4rem;
+    }
+    p {
+      font-size: 2.875rem;
+    }
+    h5 {
+      font-size: 3rem;
+    }
+    span {
+      font-size: 2.5rem;
+    }
+    .footer_bottom {
+      padding: 24rem;
+    }
+    .form-control {
+      font-size: 3rem;
+    }
+    h3 {
+      font-size: 4rem;
+    }
+  }
+}
